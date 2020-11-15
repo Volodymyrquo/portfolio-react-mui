@@ -4,7 +4,9 @@ import Navbar from './Navbar';
 import Particles from 'react-particles-js';
 import { makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles({ particlesCanva: { position: 'absolute' } });
+const useStyles = makeStyles({
+  particlesCanva: { position: 'absolute', opacity: '0.3' },
+});
 
 const Home = () => {
   const classes = useStyles();
