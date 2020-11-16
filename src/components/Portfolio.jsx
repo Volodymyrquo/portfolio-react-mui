@@ -19,7 +19,7 @@ import project4 from '../images/mern-stack.jpg';
 
 const useStyles = makeStyles({
   mainContainer: { background: '#233', height: '100%' },
-  cardContainer: { maxWidth: 345, margin: '3rem', margin: '5rem auto' },
+  cardContainer: { maxWidth: 345, margin: '5rem auto' },
 });
 
 const Portfolio = () => {
