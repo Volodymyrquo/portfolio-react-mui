@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import { TextField, Typography, Box, Grid, Button } from '@material-ui/core';
 import SendIcon from '@material-ui/icons/Send';
-import Navbar from './Navbar';
+import Navbar from './Navbar/Navbar';
 
 const useStyles = makeStyles((theme) => ({
   form: {
@@ -30,7 +30,6 @@ const Contacts = () => {
 
   return (
     <Box component='div' style={{ background: '#233', height: '100vh' }}>
-      <Navbar />
       <Grid container justify='center'>
         <Box component='form' className={classes.form}>
           <Typography
