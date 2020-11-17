@@ -11,25 +11,25 @@ import {
 import { makeStyles } from '@material-ui/styles';
 import React from 'react';
 const useStyles = makeStyles({
-  cardContainer: { maxWidth: 400, margin: '4rem auto' },
+  cardContainer: { maxWidth: 500, margin: '4rem auto' },
 });
 
-const Project = ({ image }) => {
+const Project = ({ image, name, code, liveDemo }) => {
   const classes = useStyles();
 
   return (
-    <Grid item xs={12} sm={6} md={4}>
+    <Grid item xs={12} sm={8} md={6}>
       <Card className={classes.cardContainer}>
         <CardActionArea>
           <CardMedia
             component='img'
             alt='Project 1'
-            height='200'
+            //height='250'
             image={image}
           />
           <CardContent>
             <Typography gutterBottom variant='h5'>
-              Project 1
+              {name}
             </Typography>
             <Typography variant='body2' color='textSecondary' component='p'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -40,10 +40,10 @@ const Project = ({ image }) => {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size='small' color='primary'>
+          <Button size='small' color='primary' href={code} target='_blanc'>
             code
           </Button>
-          <Button size='small' color='primary'>
+          <Button size='small' color='primary' href={liveDemo} target='_blanc'>
             Live Demo
           </Button>
         </CardActions>
