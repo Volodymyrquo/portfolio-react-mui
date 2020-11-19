@@ -46,6 +46,7 @@ const Contacts = () => {
             <InputField
               fullWidth={true}
               label='Name'
+              name='name'
               variant='outlined'
               inputProps={{ style: { color: 'white' } }}
               margin='dense'
@@ -54,6 +55,7 @@ const Contacts = () => {
             <br />
             <InputField
               fullWidth={true}
+              name='email'
               label='Email'
               variant='outlined'
               inputProps={{ style: { color: 'white' } }}
