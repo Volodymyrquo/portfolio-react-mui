@@ -15,13 +15,8 @@ import {
   IconButton,
   ListItemIcon,
 } from '@material-ui/core';
-import {
-  ArrowBack,
-  AssignmentInd,
-  Home,
-  Apps,
-  ContactMail,
-} from '@material-ui/icons';
+import { AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
+import MenuIcon from '@material-ui/icons/Menu';
 import avatar from '../../me.jpg';
 import Footer from './Footer';
 
@@ -79,14 +74,16 @@ const Navbar = () => {
   return (
     <>
       <Box component='nav'>
-        <AppBar position='static' style={{ background: '#222' }}>
+        <AppBar position='fixed' style={{ background: '#222' }}>
           <Toolbar>
             <IconButton onClick={toggleSlider('right', true)}>
-              <ArrowBack style={{ color: 'tomato' }} />
+              <MenuIcon style={{ color: 'tomato' }} />
             </IconButton>
+
             <Typography variant='h5' style={{ color: 'tan' }}>
-              Portfolio
+              Menu
             </Typography>
+
             <MobilRightMenuSlider
               anchor='right'
               open={state.right}

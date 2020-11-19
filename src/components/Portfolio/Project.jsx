@@ -11,7 +11,7 @@ import {
 import { makeStyles } from '@material-ui/styles';
 import React from 'react';
 const useStyles = makeStyles({
-  cardContainer: { maxWidth: 500, margin: '4rem auto' },
+  cardContainer: { maxWidth: 500, margin: '5rem auto' },
 });
 
 const Project = ({ image, name, code, liveDemo }) => {

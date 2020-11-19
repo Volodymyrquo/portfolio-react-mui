@@ -5,7 +5,7 @@ import Project from './Project';
 import projectImages from './projectData';
 
 const useStyles = makeStyles({
-  mainContainer: { background: '#233', height: '100%' },
+  mainContainer: { background: '#233', height: '100%', marginTop: '3rem' },
 });
 
 const Portfolio = () => {
