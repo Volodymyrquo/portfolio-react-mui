@@ -41,43 +41,47 @@ const Contacts = () => {
           >
             hire or contact me...
           </Typography>
-          <InputField
-            fullWidth={true}
-            label='Name'
-            variant='outlined'
-            inputProps={{ style: { color: 'white' } }}
-            margin='dense'
-            size='medium'
-          />
-          <br />
-          <InputField
-            fullWidth={true}
-            label='Email'
-            variant='outlined'
-            inputProps={{ style: { color: 'white' } }}
-            margin='dense'
-            size='medium'
-          />
-          <br />
-          <InputField
-            fullWidth={true}
-            label='Company name'
-            variant='outlined'
-            inputProps={{ style: { color: 'white' } }}
-            margin='dense'
-            size='medium'
-          />
-          <br />
-          <Button
-            className={classes.button}
-            variant='outlined'
-            fullWidth={true}
-            endIcon={<SendIcon />}
-          >
-            contact me
-          </Button>
-        </Box>{' '}
-      </Grid>{' '}
+          <form noValidate autoComplete='off' name='contact' method='post'>
+            <input type='hidden' name='form-name' value='contact' />
+            <InputField
+              fullWidth={true}
+              label='Name'
+              variant='outlined'
+              inputProps={{ style: { color: 'white' } }}
+              margin='dense'
+              size='medium'
+            />
+            <br />
+            <InputField
+              fullWidth={true}
+              label='Email'
+              variant='outlined'
+              inputProps={{ style: { color: 'white' } }}
+              margin='dense'
+              size='medium'
+            />
+            <br />
+            <InputField
+              fullWidth={true}
+              label='Company name'
+              variant='outlined'
+              inputProps={{ style: { color: 'white' } }}
+              margin='dense'
+              size='medium'
+            />
+            <br />
+            <Button
+              type='submit'
+              className={classes.button}
+              variant='outlined'
+              fullWidth={true}
+              endIcon={<SendIcon />}
+            >
+              contact me
+            </Button>
+          </form>
+        </Box>
+      </Grid>
     </Box>
   );
 };
