@@ -40,10 +40,10 @@ const Project = ({ image, name, code, liveDemo }) => {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size='small' color='primary' href={code} target='_blanc'>
+          <Button size='small' color='primary' href={code} target='_blank'>
             code
           </Button>
-          <Button size='small' color='primary' href={liveDemo} target='_blanc'>
+          <Button size='small' color='primary' href={liveDemo} target='_blank'>
             Live Demo
           </Button>
         </CardActions>
