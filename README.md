@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Personal Portfolio
+
+### [Live Site](https://www.volodymyr-basok.pp.ua/)
+
+![Personal portfolio site](https://i.ibb.co/7KBv9RQ/personal-site.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
