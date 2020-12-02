@@ -7,12 +7,6 @@ const ResumeItem = ({ year, position, company, experience }) => {
   const classes = useStyles();
   return (
     <>
-      <Typography
-        variant='h2'
-        className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-      >
-        {year}
-      </Typography>
       <Box component='div' className={classes.timeLineItem}>
         <Typography variant='h5' align='center' className={classes.subHeading}>
           {position}
@@ -24,6 +18,12 @@ const ResumeItem = ({ year, position, company, experience }) => {
           {experience}
         </Typography>
       </Box>
+      <Typography
+        variant='h2'
+        className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+      >
+        {year}
+      </Typography>
     </>
   );
 };
