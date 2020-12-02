@@ -1,29 +1,8 @@
 import React from 'react';
-import { makeStyles, withStyles } from '@material-ui/core/styles';
-import { TextField, Typography, Box, Grid, Button } from '@material-ui/core';
+import { Typography, Box, Grid, Button } from '@material-ui/core';
 import SendIcon from '@material-ui/icons/Send';
+import useStyles, { InputField } from './styles';
 
-const useStyles = makeStyles((theme) => ({
-  form: {
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    position: 'absolute',
-  },
-  button: { marginTop: '1rem', color: 'tomato', borderColor: 'tomato' },
-}));
-
-const InputField = withStyles({
-  root: {
-    '& label.Mui-focused': { color: 'tomato' },
-    '& label': { color: 'tan' },
-    '& .MuiOutlinedInput-root': {
-      '& fieldset': { borderColor: 'tan' },
-      '&:hover fieldset': { borderColor: 'tan' },
-      '&.Mui-focused fieldset': { borderColor: 'tan' },
-    },
-  },
-})(TextField);
 const Contacts = () => {
   const classes = useStyles();
 
@@ -42,6 +21,7 @@ const Contacts = () => {
             hire or contact me...
           </Typography>
           <form noValidate autoComplete='off' name='contact' method='post'>
+            {/* hidden input added for netlify to send message */}
             <input type='hidden' name='form-name' value='contact' />
             <InputField
               fullWidth={true}

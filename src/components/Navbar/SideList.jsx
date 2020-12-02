@@ -11,10 +11,17 @@ import {
 import useStyles from './styles';
 import avatar from '../../me.jpg';
 import { Link } from 'react-router-dom';
-import { AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
+import {
+  AssignmentInd,
+  Home,
+  Apps,
+  ContactMail,
+  Person,
+} from '@material-ui/icons';
 
 const menuItems = [
   { listIcon: <Home />, listText: 'Home', listPath: '/' },
+  { listIcon: <Person />, listText: 'About me', listPath: '/about' },
   { listIcon: <AssignmentInd />, listText: 'Resume', listPath: '/resume' },
   { listIcon: <Apps />, listText: 'Portfolio', listPath: '/portfolio' },
   { listIcon: <ContactMail />, listText: 'Contacts', listPath: '/contacts' },
