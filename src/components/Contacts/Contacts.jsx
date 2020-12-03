@@ -52,6 +52,17 @@ const Contacts = () => {
               size='medium'
             />
             <br />
+            <InputField
+              fullWidth={true}
+              multiline
+              rows={4}
+              label='Your message'
+              variant='outlined'
+              inputProps={{ style: { color: 'white' } }}
+              margin='dense'
+              size='medium'
+            />
+            <br />
             <Button
               type='submit'
               className={classes.button}
