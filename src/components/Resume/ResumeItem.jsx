@@ -3,7 +3,6 @@ import React from 'react';
 import useStyles from './styles';
 
 const ResumeItem = ({ year, position, company, experience }) => {
-  debugger;
   const classes = useStyles();
   return (
     <>

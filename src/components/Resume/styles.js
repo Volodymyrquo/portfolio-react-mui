@@ -1,7 +1,7 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
-  mainContainer: { background: '#233', marginTop: '30px' },
+  mainContainer: { background: '#233', marginTop: '50px' },
   timeLine: {
     position: 'relative',
     padding: '1rem',
