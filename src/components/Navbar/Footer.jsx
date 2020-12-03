@@ -4,7 +4,6 @@ import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
 import LinkedIn from '@material-ui/icons/LinkedIn';
 import GitHub from '@material-ui/icons/GitHub';
 import Facebook from '@material-ui/icons/Facebook';
-import codersrank from '../../images/codersrank.svg';
 
 const useStyles = makeStyles({
   root: {
