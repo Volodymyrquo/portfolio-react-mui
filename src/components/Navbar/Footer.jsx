@@ -22,8 +22,11 @@ const Footer = () => {
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}
-        icon={<Facebook />}
+        icon={<GitHub />}
+        href='https://github.com/Volodymyrquo'
+        target='_blank'
       />
+
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}
@@ -34,8 +37,8 @@ const Footer = () => {
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}
-        icon={<GitHub />}
-        href='https://github.com/Volodymyrquo'
+        icon={<Facebook />}
+        href='https://www.facebook.com/volodymyr.basok'
         target='_blank'
       />
     </BottomNavigation>

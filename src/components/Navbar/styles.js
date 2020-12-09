@@ -5,8 +5,8 @@ export default makeStyles((theme) => ({
   avatar: {
     display: 'auto',
     margin: '0.5rem auto',
-    width: theme.spacing(12),
-    height: theme.spacing(12),
+    width: theme.spacing(14),
+    height: theme.spacing(14),
   },
   listItem: {
     color: 'tan',
