@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Box, Grid } from '@material-ui/core';
 import Project from './Project';
-import projectImages from './projectData';
+import projectData from './projectData';
 
 const useStyles = makeStyles({
   mainContainer: { background: '#233', height: '100%', marginTop: '3rem' },
@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
     <Box component='div' className={classes.mainContainer}>
       <Grid container justify='center'>
-        {projectImages.map((item, key) => (
+        {projectData.map((item, key) => (
           <Project key={key} {...item} />
         ))}
       </Grid>

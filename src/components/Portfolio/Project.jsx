@@ -14,7 +14,7 @@ const useStyles = makeStyles({
   cardContainer: { maxWidth: 500, margin: '5rem auto' },
 });
 
-const Project = ({ image, name, code, liveDemo }) => {
+const Project = ({ image, name, code, liveDemo, description }) => {
   const classes = useStyles();
 
   return (
@@ -32,10 +32,7 @@ const Project = ({ image, name, code, liveDemo }) => {
               {name}
             </Typography>
             <Typography variant='body2' color='textSecondary' component='p'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores nam molestiae perspiciatis aut velit est a, modi
-              reprehenderit mollitia fugit fugiat cumque non deserunt voluptatem
-              eligendi accusamus veniam temporibus! Eum?
+              {description}
             </Typography>
           </CardContent>
         </CardActionArea>
