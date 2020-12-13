@@ -14,10 +14,11 @@ export const workingExperience = [
   },
   {
     year: 2011,
-    position: 'redux',
-    company: 'company name where worked ',
+    position:
+      'Head of international and treasury departments, regional manager of business development',
+    company: 'different banks ',
     experience:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui totam omnis quisquam perspiciatis alias voluptatibus fugiatvelit ea reprehenderit harum.',
+      '•	in each position I started from scratch to develop and establish business procedures, to form the corresponding divisions and to make them perfect',
   },
   {
     year: 2017,
