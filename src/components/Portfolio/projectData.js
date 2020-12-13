@@ -6,6 +6,13 @@ const projectImages = [
     liveDemo: 'https://volodymyrquo.github.io/the-social-network/',
   },
   {
+    image: 'https://i.ibb.co/7X54D0Q/phone-store.png',
+    name: 'Phone store e-commerce',
+    code: 'https://github.com/Volodymyrquo/phone-store-e-commerce',
+    liveDemo: 'https://vquo-phone-store-gh.netlify.app/',
+  },
+
+  {
     image: 'https://i.ibb.co/s33PdHR/covid19-tracker.png',
     name: 'Covid19 Tracker/Stats React App',
     code: 'https://github.com/Volodymyrquo/covid19-tracker',
