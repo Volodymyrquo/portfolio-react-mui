@@ -5,7 +5,7 @@ const projectData = [
     code: 'https://github.com/Volodymyrquo/the-social-network',
     liveDemo: 'https://volodymyrquo.github.io/the-social-network/',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsa omnis molestiae officia distinctio quasi ut voluptatibus, nihil deserunt tenetur laborum dolorum dignissimos minima animi accusantium magnam eos illo vitae.',
+      'SPA based on FLUX architecture. In the project is used technologies: ReactJS, Material-UI, Redux, Redux-Thunk, Redux-Form, Hooks, Axios, TDD.',
   },
   {
     image: 'https://i.ibb.co/7X54D0Q/phone-store.png',
