@@ -24,6 +24,6 @@ export const workingExperience = [
     position: 'Head of international and treasury departments',
     company: 'Bank "Ukraine", Bank PEKAO(Ukraine)',
     experience:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui totam omnis quisquam perspiciatis alias voluptatibus fugiatvelit ea reprehenderit harum.',
+      'In each position I started from scratch to develop and establish business procedures, to form the corresponding divisions and to make them perfect',
   },
 ];
