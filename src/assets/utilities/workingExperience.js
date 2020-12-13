@@ -18,7 +18,7 @@ export const workingExperience = [
       'Head of international and treasury departments, regional manager of business development',
     company: 'different banks ',
     experience:
-      '•	in each position I started from scratch to develop and establish business procedures, to form the corresponding divisions and to make them perfect',
+      'In each position I started from scratch to develop and establish business procedures, to form the corresponding divisions and to make them perfect',
   },
   {
     year: 2017,
