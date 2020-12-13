@@ -11,13 +11,12 @@ const About = () => {
           about me
         </Typography>
         <Typography variant='subtitle1' className={classes.article}>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias,
-          rem tempore distinctio rerum et aliquid quasi unde maiores officia
-          inventore eaque cumque dolore labore at expedita tenetur deleniti
-          atque quam. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Minus ab cumque quidem, itaque ipsa sequi? Eaque dolorem consequuntur
-          libero, ab amet inventore eveniet quisquam maiores et sed facere unde
-          praesentium.
+          I am an enthusiastic and well-motivated person strongly interested in
+          Software Development processes and advanced technologies. I am well
+          familiar with such technologies as ReactJS, JavaScript, HTML, CSS, I
+          have an experience in using such tools as Git, Material-UI and keep
+          learning them. I work well both independently and with other
+          cross-functional teams.
         </Typography>
       </Box>
     </Box>
