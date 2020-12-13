@@ -5,7 +5,7 @@ const projectData = [
     code: 'https://github.com/Volodymyrquo/the-social-network',
     liveDemo: 'https://volodymyrquo.github.io/the-social-network/',
     description:
-      'SPA based on FLUX architecture. In the project is used technologies: ReactJS, Material-UI, Redux, Redux-Thunk, Redux-Form, Hooks, Axios, TDD.',
+      'Single page application based on FLUX architecture. In the project is used technologies: ReactJS, Material-UI, Redux, Redux-Thunk, Redux-Form, Hooks, Axios, TDD.',
   },
   {
     image: 'https://i.ibb.co/7X54D0Q/phone-store.png',
@@ -22,7 +22,7 @@ const projectData = [
     code: 'https://github.com/Volodymyrquo/covid19-tracker',
     liveDemo: 'https://vquo-covid19-tracker-gh.netlify.app/',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsa omnis molestiae officia distinctio quasi ut voluptatibus, nihil deserunt tenetur laborum dolorum dignissimos minima animi accusantium magnam eos illo vitae.',
+      'COVID19 Tracker React Application with the addition of Charts.js, Axios, Classnames, Material UI, and many different modules.',
   },
   {
     image: 'https://i.ibb.co/71Fvpqt/youtube-api.png',
