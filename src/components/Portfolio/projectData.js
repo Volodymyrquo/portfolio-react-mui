@@ -15,6 +15,14 @@ const projectData = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsa omnis molestiae officia distinctio quasi ut voluptatibus, nihil deserunt tenetur laborum dolorum dignissimos minima animi accusantium magnam eos illo vitae.',
   },
+  {
+    image: 'https://i.ibb.co/7KBv9RQ/personal-site.png',
+    name: 'My personal portfolio site',
+    code: 'https://github.com/Volodymyrquo/portfolio-react-mui',
+    liveDemo: 'https://www.volodymyr-basok.pp.ua/',
+    description:
+      'My personal portfolio site developed using React and Material UI . That is a good example of a demonstration on how to implement two technologies (React & Material UI).',
+  },
 
   {
     image: 'https://i.ibb.co/s33PdHR/covid19-tracker.png',

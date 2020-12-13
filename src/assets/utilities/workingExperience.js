@@ -1,10 +1,10 @@
 export const workingExperience = [
   {
     year: 2019,
-    position: 'react js',
+    position: 'react js developer',
     company: 'Self-employed   ',
     experience:
-      'I have been developing some React projects like "The social network", "Phone store e-commerce". These projects use technologies: ReactJS, Material-UI, Redux, Redux-Thunk, Redux-Form, Hooks, Axios, TDD and more',
+      'I have been developing some React projects like "The social network", "Phone store e-commerce". In these projects I have used technologies: ReactJS, Material-UI, Redux, Redux-Thunk, Redux-Form, Hooks, Axios, TDD and more',
   },
   {
     year: 2011,
