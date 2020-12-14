@@ -38,7 +38,7 @@ const projectData = [
     code: 'https://github.com/Volodymyrquo/youtube-api',
     liveDemo: 'https://vquo-youtube-api-md.netlify.app/',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsa omnis molestiae officia distinctio quasi ut voluptatibus, nihil deserunt tenetur laborum dolorum dignissimos minima animi accusantium magnam eos illo vitae.',
+      'YouTube Clone Application developed on React. This project covers a lot of concepts that appear often in reactjs workflow: lifecycle methods, project structure, destructuring, state management, passing props from parent to child components, API calls and much more.',
   },
   {
     image: 'https://i.ibb.co/fXSqFC2/pwa-weather.png',
