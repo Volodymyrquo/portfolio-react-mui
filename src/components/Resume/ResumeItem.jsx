@@ -14,7 +14,7 @@ const ResumeItem = ({ year, position, company, experience }) => {
           {company}
         </Typography>
         <Typography variant='subtitle1' align='center' style={{ color: 'tan' }}>
-          {experience}
+          {experience()}
         </Typography>
       </Box>
       <Typography
