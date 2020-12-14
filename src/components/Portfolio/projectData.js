@@ -46,7 +46,7 @@ const projectData = [
     code: 'https://github.com/Volodymyrquo/pwa-weather',
     liveDemo: 'https://vquo-weather-gh.netlify.app/',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsa omnis molestiae officia distinctio quasi ut voluptatibus, nihil deserunt tenetur laborum dolorum dignissimos minima animi accusantium magnam eos illo vitae.',
+      'This is a PWA developed using React. I created custom service workers and used a JSON Manifest. Progressive Web Apps provide a unique opportunity to deliver a web experience users will love. Using the latest web features to bring native-like capabilities and reliability, Progressive Web Apps allow to be installed by anyone, anywhere, on any device with a single codebase. ',
   },
 ];
 
