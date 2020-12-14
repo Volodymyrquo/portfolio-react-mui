@@ -23,7 +23,14 @@ const projectData = [
     description:
       'My personal portfolio site developed using React and Material UI . That is a good example of a demonstration on how to implement two technologies (React & Material UI).',
   },
-
+  {
+    image: 'https://i.ibb.co/fXSqFC2/pwa-weather.png',
+    name: 'PWA Weather Application',
+    code: 'https://github.com/Volodymyrquo/pwa-weather',
+    liveDemo: 'https://vquo-weather-gh.netlify.app/',
+    description:
+      'This is a PWA developed using React. I created custom service workers and used a JSON Manifest. Progressive Web Apps provide a unique opportunity to deliver a web experience users will love. Using the latest web features to bring native-like capabilities and reliability, Progressive Web Apps allow to be installed by anyone, anywhere, on any device with a single codebase. ',
+  },
   {
     image: 'https://i.ibb.co/s33PdHR/covid19-tracker.png',
     name: 'Covid19 Tracker/Stats React App',
@@ -39,14 +46,6 @@ const projectData = [
     liveDemo: 'https://vquo-youtube-api-md.netlify.app/',
     description:
       'YouTube Clone Application developed on React. This project covers a lot of concepts that appear often in reactjs workflow: lifecycle methods, project structure, destructuring, state management, passing props from parent to child components, API calls and much more.',
-  },
-  {
-    image: 'https://i.ibb.co/fXSqFC2/pwa-weather.png',
-    name: 'PWA Weather Application',
-    code: 'https://github.com/Volodymyrquo/pwa-weather',
-    liveDemo: 'https://vquo-weather-gh.netlify.app/',
-    description:
-      'This is a PWA developed using React. I created custom service workers and used a JSON Manifest. Progressive Web Apps provide a unique opportunity to deliver a web experience users will love. Using the latest web features to bring native-like capabilities and reliability, Progressive Web Apps allow to be installed by anyone, anywhere, on any device with a single codebase. ',
   },
 ];
 

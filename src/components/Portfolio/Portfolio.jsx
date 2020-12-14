@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Box, Grid } from '@material-ui/core';
 import Project from './Project';
-import projectData from './projectData';
+import projectData from '../../assets/utilities/projectData';
 
 const useStyles = makeStyles({
   mainContainer: { background: '#233', height: '100%', marginTop: '3rem' },
