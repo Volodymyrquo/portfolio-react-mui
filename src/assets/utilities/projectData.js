@@ -13,7 +13,7 @@ const projectData = [
     code: 'https://github.com/Volodymyrquo/phone-store-e-commerce',
     liveDemo: 'https://vquo-phone-store-gh.netlify.app/',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsa omnis molestiae officia distinctio quasi ut voluptatibus, nihil deserunt tenetur laborum dolorum dignissimos minima animi accusantium magnam eos illo vitae.',
+      'Phone store e-commerce developed on React, Bootstrap and Styled Components. As a payment system in this store is using PayPal that realized with React-paypal-express-checkout.',
   },
   {
     image: 'https://i.ibb.co/7KBv9RQ/personal-site.png',
