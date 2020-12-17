@@ -31,9 +31,7 @@ const Project = ({ image, name, code, liveDemo, description }) => {
             <Typography gutterBottom variant='h5'>
               {name}
             </Typography>
-            <Typography variant='body2' color='textSecondary' component='p'>
-              {description()}
-            </Typography>
+            {description()}
           </CardContent>
         </CardActionArea>
         <CardActions>
