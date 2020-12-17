@@ -32,7 +32,7 @@ const Project = ({ image, name, code, liveDemo, description }) => {
               {name}
             </Typography>
             <Typography variant='body2' color='textSecondary' component='p'>
-              {description}
+              {description()}
             </Typography>
           </CardContent>
         </CardActionArea>
