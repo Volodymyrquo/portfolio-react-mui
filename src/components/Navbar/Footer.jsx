@@ -3,10 +3,6 @@ import { makeStyles } from '@material-ui/styles';
 import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
 import LinkedIn from '@material-ui/icons/LinkedIn';
 import GitHub from '@material-ui/icons/GitHub';
-import Facebook from '@material-ui/icons/Facebook';
-import CodeIcon from '@material-ui/icons/Code';
-import { Icon, InlineIcon } from '@iconify/react';
-import codersrankIcon from '@iconify-icons/simple-icons/codersrank';
 import CodersRankIcon from './CodersRankIcon';
 
 const useStyles = makeStyles({
