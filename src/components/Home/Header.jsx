@@ -20,8 +20,13 @@ const Header = () => {
         <Typed
           strings={[
             'React JS',
-            'Redux, Context',
-            'Material UI, Bootstrap, Styled Components',
+            'Redux',
+            'Material UI',
+            'Context',
+            'Bootstrap',
+            'Styled Components',
+            'Axios Rest API',
+            'JavaScript ES6',
           ]}
           typeSpeed={40}
           backSpeed={60}
