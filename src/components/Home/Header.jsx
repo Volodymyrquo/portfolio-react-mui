@@ -21,8 +21,8 @@ const Header = () => {
           strings={[
             'React JS',
             'Redux',
-            'Material UI',
             'Context',
+            'Material UI',
             'Bootstrap',
             'Styled Components',
             'Axios Rest API',
