@@ -7,7 +7,12 @@ const projectData = [
     code: 'https://github.com/Volodymyrquo/the-social-network',
     liveDemo: 'https://volodymyrquo.github.io/the-social-network/',
     description: () => (
-      <Typography variant='body2' color='textSecondary' component='p'>
+      <Typography
+        variant='body2'
+        color='textSecondary'
+        component='p'
+        style={{ textAlign: 'justify' }}
+      >
         Single page application based on FLUX architecture. In the project is
         used technologies: ReactJS, Material-UI, Redux, Redux-Thunk, Redux-Form,
         React hooks, Axios, TDD.
@@ -20,7 +25,12 @@ const projectData = [
     code: 'https://github.com/Volodymyrquo/phone-store-e-commerce',
     liveDemo: 'https://vquo-phone-store-gh.netlify.app/',
     description: () => (
-      <Typography variant='body2' color='textSecondary' component='p'>
+      <Typography
+        variant='body2'
+        color='textSecondary'
+        component='p'
+        style={{ textAlign: 'justify' }}
+      >
         Phone store e-commerce developed on React, Bootstrap and Styled
         Components. As a payment system in this store is using PayPal that
         realized with React-paypal-express-checkout.{' '}
@@ -33,7 +43,12 @@ const projectData = [
     code: 'https://github.com/Volodymyrquo/portfolio-react-mui',
     liveDemo: 'https://www.volodymyr-basok.pp.ua/',
     description: () => (
-      <Typography variant='body2' color='textSecondary' component='p'>
+      <Typography
+        variant='body2'
+        color='textSecondary'
+        component='p'
+        style={{ textAlign: 'justify' }}
+      >
         My personal portfolio site developed using React and Material UI . That
         is a good example of a demonstration on how to implement two
         technologies (React & Material UI).
@@ -46,7 +61,12 @@ const projectData = [
     code: 'https://github.com/Volodymyrquo/pwa-weather',
     liveDemo: 'https://vquo-weather-gh.netlify.app/',
     description: () => (
-      <Typography variant='body2' color='textSecondary' component='p'>
+      <Typography
+        variant='body2'
+        color='textSecondary'
+        component='p'
+        style={{ textAlign: 'justify' }}
+      >
         This is a PWA developed using React. I created custom service workers
         and used a JSON Manifest. Progressive Web Apps provide a unique
         opportunity to deliver a web experience users will love. Using the
@@ -62,7 +82,12 @@ const projectData = [
     code: 'https://github.com/Volodymyrquo/covid19-tracker',
     liveDemo: 'https://vquo-covid19-tracker-gh.netlify.app/',
     description: () => (
-      <Typography variant='body2' color='textSecondary' component='p'>
+      <Typography
+        variant='body2'
+        color='textSecondary'
+        component='p'
+        style={{ textAlign: 'justify' }}
+      >
         COVID19 Tracker React Application with the addition of Charts.js, Axios,
         Material UI, and many different modules. The project is fetching the
         live data from the API using Async/Await syntax and than displayed cards
@@ -78,7 +103,12 @@ const projectData = [
     code: 'https://github.com/Volodymyrquo/youtube-api',
     liveDemo: 'https://vquo-youtube-api-md.netlify.app/',
     description: () => (
-      <Typography variant='body2' color='textSecondary' component='p'>
+      <Typography
+        variant='body2'
+        color='textSecondary'
+        component='p'
+        style={{ textAlign: 'justify' }}
+      >
         YouTube Clone Application developed on React. This project covers a lot
         of concepts that appear often in reactjs workflow: lifecycle methods,
         project structure, destructuring, state management, passing props from
