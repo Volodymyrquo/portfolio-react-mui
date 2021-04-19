@@ -4,8 +4,52 @@ import { Link } from 'react-router-dom';
 
 export const workingExperience = [
   {
+    year: 2020,
+    position: 'react developer',
+    company: 'Innovate Global',
+    experience: () => (
+      <ul>
+        <li>
+          <Typography style={{ textAlign: 'justify' }}>
+            Develop a wallet application for crypto and fiat currencies.
+          </Typography>
+        </li>
+        <li>
+          <Typography style={{ textAlign: 'justify' }}>
+            Develop exchange application where own investment products will be
+            traded.
+          </Typography>
+        </li>
+        <li>
+          <Typography style={{ textAlign: 'justify' }}>
+            Implement element client for the matrix with own brand and jitsi
+            meet with own brand.
+          </Typography>
+        </li>
+        <li>
+          <Typography style={{ textAlign: 'justify' }}>
+            Implement the referral programs, reward systems and gamification to
+            all projects.
+          </Typography>
+        </li>
+        <li>
+          <Typography style={{ textAlign: 'justify' }}>
+            Develop the architecture of projects.
+          </Typography>
+        </li>
+        <li>
+          <Typography style={{ textAlign: 'justify' }}>
+            Create React and JavaScript tests for the candidates on open
+            positions, conduct technical interviews and provide reports on their
+            results.
+          </Typography>
+        </li>
+      </ul>
+    ),
+  },
+  {
     year: 2019,
-    position: 'react js developer',
+    position: 'react developer',
     company: 'Self-employed   ',
     experience: () => (
       <Typography style={{ textAlign: 'justify' }}>
