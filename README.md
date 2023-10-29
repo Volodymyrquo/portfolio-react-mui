@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-## [Live Site](https://www.volodymyr-basok.pp.ua/)
+## [Live Site](https://volodymyr-basok.netlify.app/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a0723ca2-e2a9-403e-a893-5e5f3324b6fa/deploy-status)](https://app.netlify.com/sites/volodymyr-basok/deploys)
 
 ![Personal portfolio site](https://i.ibb.co/7KBv9RQ/personal-site.png)
